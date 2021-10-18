@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:qr_scanner/screens/home_screen.dart';
 import 'package:qr_scanner/screens/login/login_screen.dart';
+import 'package:qr_scanner/screens/main/main_screen.dart';
 import 'package:qr_scanner/screens/register/register_screen.dart';
 
 void main() {
@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
+        '/main': (context) => HomeScreen(),
       },
       // home: HomeScreen(),
       // home: LoginScreen(),

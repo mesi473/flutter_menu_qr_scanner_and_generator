@@ -139,11 +139,12 @@ class MainInputFieldArea extends StatelessWidget {
                       child: InkWell(
                         radius: 20,
                         onTap: () {
-                          if (_formKey.currentState!.validate()) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(content: Text('Processing Data')),
-                            );
-                          }
+                          // if (_formKey.currentState!.validate()) {
+                          //   ScaffoldMessenger.of(context).showSnackBar(
+                          //     const SnackBar(content: Text('Processing Data')),
+                          //   );
+                          // }
+                          Navigator.pushNamed(context, '/main');
                         },
                         child: Center(
                           child: Text(

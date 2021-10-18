@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:qr_scanner/screens/generate_qr_screen.dart';
-import 'package:qr_scanner/screens/scan_qr_screen.dart';
+import 'package:qr_scanner/screens/main/components/generate_qr_screen.dart';
+import 'package:qr_scanner/screens/main/components/scan_qr_screen.dart';
 
 class HomeScreen extends StatelessWidget {
 
